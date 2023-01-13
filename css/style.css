@@ -706,9 +706,11 @@ transform: translateY(-100%) scale(0.25);
   position: relative;
   width: 16px;
 }
-.check-hidden {
-  display: none;
-}
+.checkbox-hidden {
+  display: none;}
+
+
+
 .checkbox-not-checked {
   position: absolute;
   transform: translate(0%, -50%);

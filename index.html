@@ -606,12 +606,26 @@
            placeholder="Wprowadź tekst"
            id="comment">
           </textarea>
-           </label>
-           </div>
-           <div class="statut">
-            <label for="statut_form" class="status-form">
-            <input type="checkbox" name="status" value="status" />
+         
+          <label class="label-box">
+            <div class="check-wrapper">
+              <input
+                type="checkbox"
+                name="checkbox-accept"
+                class="checkbox-hidden"
+                value="agreed"
+                required
+                />    
+           
+            <svg width="16" height="15" class="checkbox-not-checked">
+              <use href="./images/check.svg#icon-icon-check"></use>
+            </svg>
+            <svg width="16" height="15" class="checkbox-checked">
+              <use href="./images/check.svg#icon-icon-check"></use>
+            </svg>
+          </div>
             <span class="statut-info">
+              
               Oświadczam iż akceptuję
               <a class="statut-link" href="#">Regulamin </a>
               i <a class="statut-link" href="#"> Politykę prywatności.</a>

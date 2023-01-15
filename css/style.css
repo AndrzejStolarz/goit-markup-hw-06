@@ -60,7 +60,7 @@ body {
 
 .background-title {
   text-align: center;
-  padding: 130px 0;
+  padding: 205px 0;
 }
 
 .menu {
@@ -736,7 +736,7 @@ transform: translateY(-100%) scale(0.25);
   height: 15px;
   width:  16px;
   border-radius: 2px;
-  border: solid 1px var(--main-color-black);
+  border: solid 1px var(--web-color-blue);
 }
   
   .checkbox-hidden:checked ~ .checkbox-checked {
@@ -795,6 +795,16 @@ transform: translateY(-100%) scale(0.25);
     align-items: center;
 }
 
+.statut-info{
+  font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--modal-black);
+    position: relative;
+    display: flex;
+   gap: 4px;
+}
 .checkbox {
     fill: var(--white-color);
     border: 2px solid var(--main-color-black);
@@ -805,6 +815,8 @@ transform: translateY(-100%) scale(0.25);
     margin-left: 15px;
     margin-right: 8px;
 }
+
+
 
 
 /*newsletter*/

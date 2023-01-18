@@ -682,6 +682,7 @@ transform: translateY(-100%) scale(0.25);
   font-weight: 400;
   font-size: 12px;    line-height: 1.17;
   letter-spacing: 0.01em;
+  color: var(--mail-color);
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -700,6 +701,7 @@ transform: translateY(-100%) scale(0.25);
   align-items: center;
   cursor: pointer;
   margin-left: 14px;
+  margin-top: 20px;
 }
 
 .check-wrapper {
@@ -719,6 +721,7 @@ transform: translateY(-100%) scale(0.25);
   transform: translate(0%, -50%);
   top: 8px;
   left: 0;
+  
   opacity: 1;
   height: 15px;
   width:  16px;
@@ -731,6 +734,7 @@ transform: translateY(-100%) scale(0.25);
   background-color: var(--web-color-blue);
   top: 8px;
   left: 0;
+ 
   opacity: 0;
   z-index: 1;
   height: 15px;
@@ -797,9 +801,10 @@ transform: translateY(-100%) scale(0.25);
 
 .statut-info{
   font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.01em;
+    
     color: var(--modal-black);
     position: relative;
     display: flex;
@@ -814,6 +819,7 @@ transform: translateY(-100%) scale(0.25);
     appearance: none;
     margin-left: 15px;
     margin-right: 8px;
+    padding-top:  20px;
 }
 
 
